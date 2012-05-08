@@ -1,4 +1,4 @@
-=== EP Social Widget ===
+=== EP Post Widget ===
 Contributors: Earth People, darkwhispering
 Tags: social, widget, plugin, posts, post, categories, category
 Requires at least: 3.3.1

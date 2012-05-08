@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: EP Simple Post Widget
+Plugin Name: EP Post Widget
 Plugin URI: http://www.earthpeople.se
 Description: Display posts from one or more categories, with our without date and content text.
 Author: Mattias Hedman, Earth People AB
