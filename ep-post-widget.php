@@ -4,7 +4,7 @@ Plugin Name: EP Post Widget
 Plugin URI: http://www.earthpeople.se
 Description: Display posts from one or more categories, with our without date and content text.
 Author: Mattias Hedman, Earth People AB
-Version: 0.2.0
+Version: 0.2.1
 Author URI: http://www.earthpeople.se
 */
 
@@ -64,8 +64,6 @@ class epPostWidget extends WP_Widget {
 		$blogurl 		= $instance['blogurl'];
 		$theme 			= $instance['theme'];
 		
-		$temp_query = $wp_query;
-		
 		echo $before_widget;
 		
 		if($title) echo $before_title . __($title) . $after_title;
@@ -94,7 +92,7 @@ class epPostWidget extends WP_Widget {
 		<?php
 		echo $after_widget;
 
-		$wp_query = $temp_query;
+		wp_reset_query();
 	}
 	
 	function update($new_instance,$old_instance) {
