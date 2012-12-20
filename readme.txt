@@ -2,7 +2,7 @@
 Contributors: Earth People, darkwhispering
 Tags: social, widget, plugin, posts, post, categories, category
 Requires at least: 3.3.0
-Tested up to: 3.4.1
+Tested up to: 3.5.0
 Stable tag: 0.2.1
 
 Display posts from one or more categories with ease. Not a million different settings, but still customizable!
